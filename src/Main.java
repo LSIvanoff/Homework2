@@ -68,6 +68,7 @@ public class Main {
         var workers = genWorkTime / workerTime;
         System.out.println("Всего работников в компании — " + workers + " человек");
 
+        System.out.println("Задача 8. Часть 2");
         workers = workers + 94;
         genWorkTime = workers *  workerTime;
         System.out.println("Если в компании работает " + workers + " человек, то всего " + genWorkTime + " часов работы может быть поделено между сотрудниками");
